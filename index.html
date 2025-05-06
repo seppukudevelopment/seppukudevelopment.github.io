@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seppuku</title>
+    <style>
+        body, #content {
+			/*text-align: center;*/
+            background-color: #111111;
+			color: #FFFFFF;
+            margin: 8px;
+            padding: 8px;
+        }
+		
+        .forge-tutorial a {
+            text-decoration: none;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="block">
+            <img class="logo" width=200 src="./static/seppuku_full.png" />
+        </div>
+        <div class="block">
+            <div id="content">
+                <p>
+                    <b>Seppuku Client</b> is a free, lightweight, open-source <i>Minecraft Forge</i> client-side mod for <i>Minecraft</i> 1.12.2
+                </p>
+                <p>
+                    Currently supports all <i>Windows / Linux / MAC</i> based operating systems that support <i>Java</i> 8
+                </p>
+            </div>
+            <br/>
+            <div id="content">
+                <h2>
+                    <label class="label">Install</label>
+                </h2>
+				<label class="label">Latest version:</label>
+                <button class="button">
+						<a href="https://github.com/seppukudevelopment/seppuku/releases/download/3.2.2/seppuku-3.2.2.jar">Download</a>
+				</button>
+                <p>Place the "seppuku.jar" file into your mods folder.</p>
+				<div class="forge-tutorial" style="color:gray;">
+                    (If you do not already have a <a href="https://files.minecraftforge.net/net/minecraftforge/forge/index_1.12.2.html" target="_blank">Minecraft Forge</a> environment for modding minecraft, please create one for Minecraft 1.12.2.
+                    <br> There are many tutorials online on how to create one, here are a few: <a href="https://minecraft.gamepedia.com/Mods/Installing_Forge_mods" target="_blank">Minecraft
+                    Wiki</a>, <a href="https://gaming.stackexchange.com/questions/164341/how-exactly-do-i-install-minecraft-mods-and-what-is-forge" target="_blank">Stack Overflow</a>, <a href="https://www.wikihow.com/Install-Minecraft-Forge" target="_blank">WikiHow</a>.)
+                </div>
+            </div>
+            <br/>
+            <div id="content">
+                <h2>
+                    <label class="label">Commands</label>
+                </h2>
+                <p>Seppuku's default command prefix is the period character "."</p>
+                <p>Try entering a singleplayer session or multiplayer server and typing ".help" in chat.</p>
+                <p>To see a list of all the modules in Seppuku, enter the ".modules" command.</p>
+                <p>To edit an individual module, enter the module's name followed by the option to configure: ".freecam" or ".freecam speed 1" </p>
+            </div>
+            <br/>
+            <div id="content">
+                <h2>
+                    <label class="label">GUI + HUD</label>
+                </h2>
+                <p>Press <b>~</b>
+                    <i>(GRAVE)</i> or <b>right shift</b>
+                    <i>(RSHIFT)</i> to enable the GUI.</p>
+                <p>Inside the GUI/Hud Editor you will be greeted with a small tutorial and the <b>Hub</b> component.
+                </p>
+                <p>The <b>Hub</b> component is a list of all the available components for you to use. Each component is enabled by left click; scroll with mouse wheel or using the scrollbar.</p>
+                <p>Drag hud components around freely, each one allows clamping onto screen corners and merging with other hud components to stack.</p>
+                <p>Middle clicking any component results in a white-border indicating it is now '<b>locked</b>' or, in other words: entirely stopped from changing positions when resizing the screen.</p>
+            </div>
+            <div id="content">
+                <h3>
+                    <label class="label">Tray</label>
+                </h3>
+                <p>
+                    <img src="./static/tray.png" style="max-width:600px;">
+                </p>
+                <p>The <b>Tray</b> component is centered at the bottom of the screen by default. It provides shortcuts to commonly used hud components.</p>
+                <p>Right click on an icon inside the tray to enable it's relevant component.</p>
+            </div>
+            <br/>
+            <div id="content">
+                <h2>
+                    <label class="label">Donate / Donations</label>
+                </h2>
+                <button class="button">
+								<a href="https://www.paypal.com/donate/?hosted_button_id=HLNTNZ33JZE4Y">Donate via PayPal</a>
+				</button>
+            </div>
+        </div>
+		
+		<br/>
+		<hr/>
+		
+        <div class="block">
+            <a target="_blank" href="./static/example1.png">
+                <img src="./static/example1.png" alt="HUD Editor" width="600" height="400">
+            </a>
+            <a target="_blank" href="./static/client4.png">
+                <img src="./static/client4.png" alt="HUD" width="600" height="400">
+            </a>
+            <a target="_blank" href="./static/capes.png">
+                <img src="./static/capes.png" alt="Donator Capes" width="600" height="400">
+            </a>
+            <a target="_blank" href="./static/client6.png">
+                <img src="./static/client6.png" alt="GUI" width="600" height="400">
+            </a>
+        </div>
+    </div>
+</body>
